@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="SaveFile()">Create File</button>
+
+    <div>
+        <input type="text" id="input">
+        <button onclick="postMessage()">Broadcast Message</button>
+    </div>
+    <div>
+        <video controls></video>
+        <button id="play">Start Recording</button>
+        <button id="stop">Stop Recording</button>
+
+    </div>
+
+    <script src="./FileSystemSave/filescript.js"></script>
+    <script src="./BroadCaster/Broadcast.js"></script>
+    <script src="./ImageCapture/streamImage.js"></script>
+</body>
+
+</html>
